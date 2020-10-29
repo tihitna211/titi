@@ -1,0 +1,13 @@
+*
+h1{
+    color: red; font-style: oblique; font-size: 100px; text-underline-position: below;
+   }
+ 
+.green-background{
+    background-color: slategray; font-family: fantasy; font-size: 30;
+}
+.purple-background{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF57GFjSo2CN6ppI3fqjqRZGNlTeTK-E7UFmSA2hTJnKP7hJrn&s);
+  position: sticky;  font-stretch: expanded; font-weight: 900; background-size: 900px; text-decoration: mediumblue;}
+.blue-background {background-color: mediumslateblue;}
+.pink-background{ background-color: salmon;}
+    
