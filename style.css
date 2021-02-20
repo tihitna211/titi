@@ -5,160 +5,51 @@
     box-sizing: border-box;
 }
 body  {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-list-style: 1.5;
+list-style: 1.5;  color: purple;
 }
+
 ul {
-    list-style: none;
+    list-style: lower-roman;
+    padding-left: 5rem;
+    text-decoration: overline;
 }
-a { 
-    text-decoration: none;
-}
+
 /* UTILITY CLASSES */
-#container {
-    max-width: 960px;
-    margin: 2rem auto 0;
-    overflow: hidden;
+.gogo {
+    font-size: 3rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    font-family: monospace;
 }
-.logo {
-    width: 300px;
+#pic { 
+    align-self: center;
+    align-content: center;
+    padding: .7rem 1.3rem;
+    padding-left: 16%;
+    shape-image-threshold: initial;
+    width: 80%;
+    height: initial;
+    image-resolution: 7rem 1.3rem;
+    column-width: 9rem;
+}
+.img {
+     width: 1000;
+     
+     shape-image-threshold: circle;
 }
 .btn {
-    display: inline-block;
-    padding: .7rem 1.3rem;
-    color: #333;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: yellow;
+    padding-left: 3rem;
 }
-/* header navbar */
-#main-header {
-    background-color: #eeeeee;
-    color: #333;
+#container {
+    padding: 2rem;
+   column-gap: 3rem;
+   color: rgb(9, 3, 36);
 }
-#navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .8rem 2rem;
-}
-#navbar ul {
-    display: flex;
-}
-#navbar ul li{
-    padding: 1rem 2rem;
-}
-#navbar ul li a {
-    color: #333;
-    font-size: 1.3rem;
-}
-.message-box{
-    margin: 1.5rem;
-    padding: .8rem;
-    text-align: center;
-}
-.message-box h1{
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
-}
-.message-box input{
-    display: block;
-    margin: auto;
-    width: 30%;
-    padding: .4rem;
-    margin-bottom: 1rem;
-
-}
-#feature{
-    padding: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction:column ;
-    
-}
-#feature .feature{
-    display: inline-flex;
-    justify-self: center;
-    align-items: center;
-}
-#feature .feature i{
-    color: orange;
-    
-}
-#feature .feature div {
-    padding: 1rem;
-    margin-left: 3rem;
-}
-#feature .feature  div h2{
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-
-}
-#how-it-works {
-    padding: 3rem;
-    margin: auto;
-    text-align: center;
-}
-#pricing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 3rem .2rem;
-}
-.price-box{
-    border: solid #333 3px;
-    border-radius: 2px;
-    
-}
-.price-box:first-child {
-    margin-right: 1.2rem;
-}
-.price-box:last-child {
-    margin-left: 1.2rem;
-}
-.price-box h3 {
-    background-color: #ddd;
-    font-size: 1.05rem;
-    padding: 1rem;
-}
-.price-box h2{
-    padding: 1rem;
-
-}
-.price-box p {
-    padding: 0 4rem 1rem;
-
-}
-.price-box .btn {
-    display: inline-block;
-    margin: 1rem;
-
-}
-/*  FOOTER */
-#main-footer{
-    background-color: #ccc;
-    padding: 1rem 5rem;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-}
-#main-footer div a {
-    color: #333;
-    padding: .5rem 1rem;
-    
-}
-#titi {
-    text-decoration: underline;
-    color:blueviolet;
-}
-/*  TABLET AND SMARTPHONE  */
-@media (max-width: 800px) {
-    #navbar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
+.tt {
+    text-transform: inherit;
+    text-decoration: brown;
+    font-family: cursive;
 }
